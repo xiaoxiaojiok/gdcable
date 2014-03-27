@@ -1,0 +1,401 @@
+2013-07-24 08:53:16,805 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-24 08:53:16,805 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-24 08:53:17,368 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-24 08:53:17,541 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-24 08:53:17,541 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-24 08:53:17,556 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-24 08:53:17,556 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-24 08:53:17,572 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-24 08:53:17,572 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-24 08:53:17,587 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-24 08:53:17,587 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-24 08:53:17,603 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-24 08:53:17,619 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-24 08:53:17,619 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-24 08:53:17,619 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-24 08:53:17,650 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-24 08:53:17,837 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-24 08:53:17,853 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-24 11:34:02,254 [19348798@qtp-17089909-51] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-24 11:34:02,254 [19348798@qtp-17089909-51] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+
+2013-07-24 11:34:09,168 [19348798@qtp-17089909-51] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-24 11:34:09,168 [19348798@qtp-17089909-51] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+
+2013-07-24 11:34:11,370 [19348798@qtp-17089909-51] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-24 11:34:11,371 [19348798@qtp-17089909-51] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+
+2013-07-24 11:34:11,768 [19348798@qtp-17089909-51] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-24 11:34:11,768 [19348798@qtp-17089909-51] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+
+2013-07-24 11:34:11,972 [19348798@qtp-17089909-51] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-24 11:34:11,972 [19348798@qtp-17089909-51] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+
+2013-07-24 11:34:12,283 [19348798@qtp-17089909-51] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-24 11:34:12,284 [19348798@qtp-17089909-51] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+
+2013-07-24 11:34:17,578 [19348798@qtp-17089909-51] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-24 11:34:17,579 [19348798@qtp-17089909-51] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+
+2013-07-24 14:23:26,541 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-24 14:23:26,563 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-24 14:23:27,128 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-24 14:23:27,326 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-24 14:23:27,333 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-24 14:23:27,341 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-24 14:23:27,349 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-24 14:23:27,361 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-24 14:23:27,367 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-24 14:23:27,377 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-24 14:23:27,389 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-24 14:23:27,400 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-24 14:23:27,408 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-24 14:23:27,416 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-24 14:23:27,424 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-24 14:23:27,453 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-24 14:23:27,662 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-24 14:23:27,666 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-24 17:10:32,083 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-24 17:10:32,093 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-24 17:10:32,633 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-24 17:10:32,811 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-24 17:10:32,818 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-24 17:10:32,831 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-24 17:10:32,839 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-24 17:10:32,851 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-24 17:10:32,858 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-24 17:10:32,866 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-24 17:10:32,876 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-24 17:10:32,886 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-24 17:10:32,891 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-24 17:10:32,899 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-24 17:10:32,906 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-24 17:10:32,928 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-24 17:10:33,115 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-24 17:10:33,119 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-24 17:22:15,793 [8069945@qtp-9818046-3] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 17002, SQLState: null
+2013-07-24 17:22:15,793 [8069945@qtp-9818046-3] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Io 异常: Connection reset
+2013-07-24 17:22:15,810 [8069945@qtp-9818046-3] ERROR [org.springframework.transaction.interceptor.TransactionInterceptor] - Application exception overridden by rollback exception
+org.springframework.orm.hibernate3.HibernateJdbcException: JDBC exception on Hibernate data access: SQLException for SQL [n/a]; SQL state [null]; error code [17002]; Io 异常: Connection reset; nested exception is org.hibernate.exception.GenericJDBCException: Io 异常: Connection reset
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:651)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:104)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:58)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.data.jpa.repository.support.LockModeRepositoryPostProcessor$LockModePopulatingMethodIntercceptor.invoke(LockModeRepositoryPostProcessor.java:91)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at $Proxy54.getAllFirstLevelExamCategoryList(Unknown Source)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService.getAllFirstLevelExamCategoryList(ExamCategoryService.java:106)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService$$FastClassByCGLIB$$24e6d554.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService$$EnhancerByCGLIB$$68a95277.getAllFirstLevelExamCategoryList(<generated>)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService$$FastClassByCGLIB$$24e6d554.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService$$EnhancerByCGLIB$$3fa7ce9c.getAllFirstLevelExamCategoryList(<generated>)
+	at cn.qtone.cjgl.controller.examination.ExaminationController.index(ExaminationController.java:134)
+	at cn.qtone.cjgl.controller.examination.ExaminationController$$FastClassByCGLIB$$944e4912.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:618)
+	at cn.qtone.cjgl.controller.examination.ExaminationController$$EnhancerByCGLIB$$49d05931.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:213)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:126)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:96)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:617)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:578)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:778)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter.doFilterInternal(OpenEntityManagerInViewFilter.java:147)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: org.hibernate.exception.GenericJDBCException: Io 异常: Connection reset
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110)
+	at org.hibernate.engine.jdbc.internal.proxy.AbstractStatementProxyHandler.continueInvocation(AbstractStatementProxyHandler.java:129)
+	at org.hibernate.engine.jdbc.internal.proxy.AbstractProxyHandler.invoke(AbstractProxyHandler.java:81)
+	at $Proxy69.executeQuery(Unknown Source)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1897)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1698)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:832)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:293)
+	at org.hibernate.loader.Loader.doList(Loader.java:2382)
+	at org.hibernate.loader.Loader.doList(Loader.java:2368)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2198)
+	at org.hibernate.loader.Loader.list(Loader.java:2193)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:470)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:355)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:195)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1244)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:101)
+	at org.hibernate.ejb.QueryImpl.getResultList(QueryImpl.java:257)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:77)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:55)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:95)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:85)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:313)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:155)
+	... 87 more
+Caused by: java.sql.SQLException: Io 异常: Connection reset
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:826)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1039)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:850)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1134)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3384)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.hibernate.engine.jdbc.internal.proxy.AbstractStatementProxyHandler.continueInvocation(AbstractStatementProxyHandler.java:122)
+	... 112 more
+2013-07-24 17:22:15,815 [8069945@qtp-9818046-3] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 0, SQLState: null
+2013-07-24 17:22:15,815 [8069945@qtp-9818046-3] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Already closed.
+2013-07-24 17:22:17,017 [8069945@qtp-9818046-3] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 17002, SQLState: null
+2013-07-24 17:22:17,017 [8069945@qtp-9818046-3] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Io 异常: Connection reset
+2013-07-24 17:22:17,018 [8069945@qtp-9818046-3] ERROR [org.springframework.transaction.interceptor.TransactionInterceptor] - Application exception overridden by rollback exception
+org.springframework.orm.hibernate3.HibernateJdbcException: JDBC exception on Hibernate data access: SQLException for SQL [n/a]; SQL state [null]; error code [17002]; Io 异常: Connection reset; nested exception is org.hibernate.exception.GenericJDBCException: Io 异常: Connection reset
+	at org.springframework.orm.hibernate3.SessionFactoryUtils.convertHibernateAccessException(SessionFactoryUtils.java:651)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:104)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:58)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:213)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.data.jpa.repository.support.LockModeRepositoryPostProcessor$LockModePopulatingMethodIntercceptor.invoke(LockModeRepositoryPostProcessor.java:84)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:90)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:202)
+	at $Proxy54.getAllFirstLevelExamCategoryList(Unknown Source)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService.getAllFirstLevelExamCategoryList(ExamCategoryService.java:106)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService$$FastClassByCGLIB$$24e6d554.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService$$EnhancerByCGLIB$$68a95277.getAllFirstLevelExamCategoryList(<generated>)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService$$FastClassByCGLIB$$24e6d554.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.Cglib2AopProxy$CglibMethodInvocation.invokeJoinpoint(Cglib2AopProxy.java:689)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:150)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:622)
+	at cn.qtone.cjgl.service.examCategory.ExamCategoryService$$EnhancerByCGLIB$$3fa7ce9c.getAllFirstLevelExamCategoryList(<generated>)
+	at cn.qtone.cjgl.controller.examination.ExaminationController.index(ExaminationController.java:134)
+	at cn.qtone.cjgl.controller.examination.ExaminationController$$FastClassByCGLIB$$944e4912.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.Cglib2AopProxy$DynamicAdvisedInterceptor.intercept(Cglib2AopProxy.java:618)
+	at cn.qtone.cjgl.controller.examination.ExaminationController$$EnhancerByCGLIB$$49d05931.index(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:213)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:126)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:96)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:617)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:578)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:778)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1221)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.obtainContent(SiteMeshFilter.java:129)
+	at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:77)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:259)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter.doFilterInternal(OpenEntityManagerInViewFilter.java:147)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.jasig.cas.client.session.SingleSignOutFilter.doFilter(SingleSignOutFilter.java:76)
+	at org.mortbay.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1212)
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:399)
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216)
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182)
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:766)
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:450)
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152)
+	at org.mortbay.jetty.Server.handle(Server.java:326)
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542)
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:928)
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:549)
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212)
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404)
+	at org.mortbay.io.nio.SelectChannelEndPoint.run(SelectChannelEndPoint.java:410)
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582)
+Caused by: org.hibernate.exception.GenericJDBCException: Io 异常: Connection reset
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:54)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:125)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:110)
+	at org.hibernate.engine.jdbc.internal.proxy.AbstractStatementProxyHandler.continueInvocation(AbstractStatementProxyHandler.java:129)
+	at org.hibernate.engine.jdbc.internal.proxy.AbstractProxyHandler.invoke(AbstractProxyHandler.java:81)
+	at $Proxy69.executeQuery(Unknown Source)
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:1897)
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:1698)
+	at org.hibernate.loader.Loader.doQuery(Loader.java:832)
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:293)
+	at org.hibernate.loader.Loader.doList(Loader.java:2382)
+	at org.hibernate.loader.Loader.doList(Loader.java:2368)
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2198)
+	at org.hibernate.loader.Loader.list(Loader.java:2193)
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:470)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:355)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:195)
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1244)
+	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:101)
+	at org.hibernate.ejb.QueryImpl.getResultList(QueryImpl.java:257)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:77)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:55)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:95)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:85)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:313)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:110)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:172)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:155)
+	... 87 more
+Caused by: java.sql.SQLException: Io 异常: Connection reset
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:112)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:146)
+	at oracle.jdbc.driver.DatabaseError.throwSqlException(DatabaseError.java:255)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:826)
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1039)
+	at oracle.jdbc.driver.T4CPreparedStatement.executeMaybeDescribe(T4CPreparedStatement.java:850)
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1134)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3339)
+	at oracle.jdbc.driver.OraclePreparedStatement.executeQuery(OraclePreparedStatement.java:3384)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at sun.reflect.GeneratedMethodAccessor54.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.hibernate.engine.jdbc.internal.proxy.AbstractStatementProxyHandler.continueInvocation(AbstractStatementProxyHandler.java:122)
+	... 112 more
+2013-07-24 17:22:17,022 [8069945@qtp-9818046-3] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 0, SQLState: null
+2013-07-24 17:22:17,022 [8069945@qtp-9818046-3] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - Already closed.
+2013-07-24 17:28:11,720 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-24 17:28:11,730 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-24 17:28:12,342 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-24 17:28:12,531 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-24 17:28:12,538 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-24 17:28:12,549 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-24 17:28:12,559 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-24 17:28:12,571 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-24 17:28:12,578 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-24 17:28:12,587 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-24 17:28:12,596 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-24 17:28:12,605 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-24 17:28:12,612 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-24 17:28:12,620 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-24 17:28:12,627 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-24 17:28:12,650 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-24 17:28:12,835 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-24 17:28:12,839 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.

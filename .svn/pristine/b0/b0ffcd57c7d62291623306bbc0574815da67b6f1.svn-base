@@ -1,0 +1,57 @@
+### 菜单初始化
+
+INSERT INTO "CZDA_MENU" VALUES (1, 0, 'ROOT', NULL, 0, 1, 1);
+INSERT INTO "CZDA_MENU" VALUES (2, 1, '系统菜单', NULL, 1, 1, 1);
+INSERT INTO "CZDA_MENU" VALUES (4, 2, '角色管理', '/role/list/1', 3, 1, 2);
+INSERT INTO "CZDA_MENU" VALUES (5, 2, '权限管理', '/permission/list/1', 4, 1, 2);
+INSERT INTO "CZDA_MENU" VALUES (3, 2, '菜单管理', '/left/menu/index', 2, 1, 2);
+
+##权限初始化##权限管理权限初始化
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (1, '角色添加功能', '角色添加', 1, 'role:add', 4);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (2, '角色查询功能', '角色查询', 1, 'role:query', 4);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (3, '角色保存功能', '角色保存', 1, 'role:save', 4);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (4, '角色删除', '角色删除', 1, 'role:delete', 4);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (5, '角色菜单显示', '角色菜单', -1, '4', 4);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (6, '角色编辑功能', '角色编辑', 1, 'role:edit', 4);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (7, '角色授权功能', '角色授权', 1, 'role:permission', 4);
+
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (8, '权限查看权限', '权限查看', 1, 'perm:view', 5);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (9, '权限编辑功能', '权限编辑', 1, 'perm:edit', 5);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (10, '权限删除功能', '权限删除', 1, 'perm:delete', 5);
+insert into CZDA_PERMISSION (PERM_ID, DESCRIPT, PERM_NAME, PERM_TYPE, PERM_VALUE, MENU_ID)
+values (11, '权限菜单显示', '权限菜单显示', -1, '5', 5);
+
+##角色初始化
+insert into CZDA_ROLE (ROLE_ID, DESCRIPTION, NAME, STATUS)
+values (1, '超管', '管理员', 1);
+insert into CZDA_ROLE (ROLE_ID, DESCRIPTION, NAME, STATUS)
+values (5, '普通', '普通人员', 1);
+##角色权限初始
+insert into CZDA_PERMISSION_ROLE (ROLE_ID, PERM_ID)
+values (1, 2);
+insert into CZDA_PERMISSION_ROLE (ROLE_ID, PERM_ID)
+values (1, 1);
+insert into CZDA_PERMISSION_ROLE (ROLE_ID, PERM_ID)
+values (1, 3);
+insert into CZDA_PERMISSION_ROLE (ROLE_ID, PERM_ID)
+values (1, 5);
+insert into CZDA_PERMISSION_ROLE (ROLE_ID, PERM_ID)
+values (1, 4);
+insert into CZDA_PERMISSION_ROLE (ROLE_ID, PERM_ID)
+values (1, 6);
+insert into CZDA_PERMISSION_ROLE (ROLE_ID, PERM_ID)
+values (1, 7);
+
+##用户角色初始化
+insert into CZDA_USER_ROLE (USER_ID, ROLE_ID)
+values (1, 1);

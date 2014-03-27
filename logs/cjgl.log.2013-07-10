@@ -1,0 +1,770 @@
+2013-07-10 09:22:31,816 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 09:22:31,816 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 09:22:32,348 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 09:22:32,550 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 09:22:32,550 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 09:22:32,566 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 09:22:32,566 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 09:22:32,582 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 09:22:32,582 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 09:22:32,597 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 09:22:32,597 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 09:22:32,613 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 09:22:32,613 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 09:22:32,628 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 09:22:32,628 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 09:22:32,660 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 09:22:32,831 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 09:22:32,831 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 09:39:28,842 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 09:39:28,858 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 09:39:29,390 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 09:39:29,702 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 09:39:29,718 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 09:39:29,718 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 09:39:29,733 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 09:39:29,733 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 09:39:29,749 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 09:39:29,749 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 09:39:29,765 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 09:39:29,780 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 09:39:29,780 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 09:39:29,780 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 09:39:29,796 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 09:39:29,827 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 09:39:29,999 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 09:39:30,014 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 11:04:27,608 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 11:04:27,623 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 11:04:28,186 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 11:04:28,404 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 11:04:28,404 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 11:04:28,420 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 11:04:28,420 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 11:04:28,436 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 11:04:28,436 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 11:04:28,451 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 11:04:28,451 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 11:04:28,482 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 11:04:28,482 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 11:04:28,498 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 11:04:28,498 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 11:04:28,529 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 11:04:28,716 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 11:04:28,716 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 11:22:49,641 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 11:22:49,656 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 11:22:50,220 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 11:22:50,392 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 11:22:50,392 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 11:22:50,407 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 11:22:50,407 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 11:22:50,423 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 11:22:50,423 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 11:22:50,438 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 11:22:50,438 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 11:22:50,454 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 11:22:50,470 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 11:22:50,470 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 11:22:50,485 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 11:22:50,501 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 11:22:50,688 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 11:22:50,688 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 11:22:54,827 [main] ERROR [org.hibernate.hql.internal.ast.ErrorCounter] - line 1:1: unexpected token: distinct
+2013-07-10 11:22:54,827 [main] ERROR [org.hibernate.hql.internal.ast.ErrorCounter] - line 1:1: unexpected token: distinct
+line 1:1: unexpected token: distinct
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:169)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:291)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:365)
+	at $Proxy35.createQuery(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:240)
+	at $Proxy35.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:69)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.fromQueryAnnotation(SimpleJpaQuery.java:132)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:114)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:160)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:68)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:280)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:148)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:41)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1442)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:248)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:269)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97)
+2013-07-10 11:22:54,843 [main] ERROR [org.springframework.web.servlet.DispatcherServlet] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'examinationController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.examination.ExaminationService cn.qtone.cjgl.controller.examination.ExaminationController.examinationService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'examinationService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.subject.SubjectService cn.qtone.cjgl.service.examination.ExaminationService.subjectService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.examination.ExaminationService cn.qtone.cjgl.controller.examination.ExaminationController.examinationService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'examinationService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.subject.SubjectService cn.qtone.cjgl.service.examination.ExaminationService.subjectService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 30 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'examinationService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.subject.SubjectService cn.qtone.cjgl.service.examination.ExaminationService.subjectService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:269)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 32 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.subject.SubjectService cn.qtone.cjgl.service.examination.ExaminationService.subjectService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 45 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 47 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 58 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:149)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1442)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:248)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 60 more
+Caused by: java.lang.IllegalArgumentException: node to traverse cannot be null!
+	at org.hibernate.hql.internal.ast.util.NodeTraverser.traverseDepthFirst(NodeTraverser.java:63)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:272)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:291)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:365)
+	at $Proxy35.createQuery(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:240)
+	at $Proxy35.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:69)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.fromQueryAnnotation(SimpleJpaQuery.java:132)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:114)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:160)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:68)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:280)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:148)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:41)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	... 68 more
+2013-07-10 11:23:41,931 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 11:23:41,946 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 11:23:42,524 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 11:23:42,712 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 11:23:42,712 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 11:23:42,727 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 11:23:42,727 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 11:23:42,743 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 11:23:42,758 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 11:23:42,758 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 11:23:42,774 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 11:23:42,790 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 11:23:42,790 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 11:23:42,805 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 11:23:42,805 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 11:23:42,836 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 11:23:43,024 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 11:23:43,024 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 11:23:47,457 [main] ERROR [org.hibernate.hql.internal.ast.ErrorCounter] - line 1:17: unexpected token: from
+2013-07-10 11:23:47,457 [main] ERROR [org.hibernate.hql.internal.ast.ErrorCounter] - line 1:17: unexpected token: from
+line 1:17: unexpected token: from
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectClause(HqlBaseParser.java:1311)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1030)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:700)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:294)
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:157)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:266)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:291)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:365)
+	at $Proxy35.createQuery(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:240)
+	at $Proxy35.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:69)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.fromQueryAnnotation(SimpleJpaQuery.java:132)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:114)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:160)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:68)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:280)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:148)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:41)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1442)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:248)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:269)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97)
+2013-07-10 11:23:47,473 [main] ERROR [org.springframework.web.servlet.DispatcherServlet] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'examinationController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.examination.ExaminationService cn.qtone.cjgl.controller.examination.ExaminationController.examinationService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'examinationService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.subject.SubjectService cn.qtone.cjgl.service.examination.ExaminationService.subjectService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.examination.ExaminationService cn.qtone.cjgl.controller.examination.ExaminationController.examinationService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'examinationService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.subject.SubjectService cn.qtone.cjgl.service.examination.ExaminationService.subjectService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 30 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'examinationService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.subject.SubjectService cn.qtone.cjgl.service.examination.ExaminationService.subjectService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:269)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 32 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: cn.qtone.cjgl.service.subject.SubjectService cn.qtone.cjgl.service.examination.ExaminationService.subjectService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 45 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 47 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.subject.SubjectReletionDao cn.qtone.cjgl.service.subject.SubjectService.srDao; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 58 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'subjectReletionDao': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:149)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:102)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1442)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:248)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 60 more
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1364)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1300)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:294)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:365)
+	at $Proxy35.createQuery(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor21.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:240)
+	at $Proxy35.createQuery(Unknown Source)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:69)
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.fromQueryAnnotation(SimpleJpaQuery.java:132)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:114)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:160)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:68)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:280)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:148)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:125)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.getObject(RepositoryFactoryBeanSupport.java:41)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:142)
+	... 68 more
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: from near line 1, column 17 [select distinct from cn.qtone.cjgl.entity.SubjectReletion s where s.id in(:ids) order by s.subjectCode asc]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.convert(QuerySyntaxException.java:54)
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.convert(QuerySyntaxException.java:47)
+	at org.hibernate.hql.internal.ast.ErrorCounter.throwQueryException(ErrorCounter.java:79)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:276)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:180)
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:136)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:105)
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80)
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:168)
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:219)
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:197)
+	at org.hibernate.internal.SessionImpl.createQuery(SessionImpl.java:1732)
+	at org.hibernate.ejb.AbstractEntityManagerImpl.createQuery(AbstractEntityManagerImpl.java:291)
+	... 88 more
+2013-07-10 11:24:34,596 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 11:24:34,596 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 11:24:35,080 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 11:24:35,283 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 11:24:35,299 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 11:24:35,299 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 11:24:35,314 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 11:24:35,314 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 11:24:35,330 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 11:24:35,330 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 11:24:35,345 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 11:24:35,345 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 11:24:35,361 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 11:24:35,361 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 11:24:35,377 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 11:24:35,392 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 11:24:35,579 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 11:24:35,579 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 11:33:06,543 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 11:33:06,543 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 11:33:07,152 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 11:33:07,324 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 11:33:07,324 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 11:33:07,339 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 11:33:07,339 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 11:33:07,355 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 11:33:07,355 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 11:33:07,371 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 11:33:07,371 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 11:33:07,402 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 11:33:07,402 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 11:33:07,417 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 11:33:07,417 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 11:33:07,433 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 11:33:07,636 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 11:33:07,636 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 18:38:57,025 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 18:38:57,056 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 18:38:57,587 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 18:38:57,759 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 18:38:57,774 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 18:38:57,774 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 18:38:57,790 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 18:38:57,790 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 18:38:57,806 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 18:38:57,806 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 18:38:57,821 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 18:38:57,837 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 18:38:57,837 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 18:38:57,852 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 18:38:57,852 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 18:38:57,884 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 18:38:58,072 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 18:38:58,072 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 18:39:03,303 [main] ERROR [org.springframework.web.servlet.DispatcherServlet] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.service.statistics.StatisticsService cn.qtone.cjgl.controller.statistics.StatisticsController.statisticsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.jdbc.core.JdbcTemplate cn.qtone.cjgl.service.statistics.StatisticsService.jdbcTemplate; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.jdbc.core.JdbcTemplate] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.service.statistics.StatisticsService cn.qtone.cjgl.controller.statistics.StatisticsController.statisticsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.jdbc.core.JdbcTemplate cn.qtone.cjgl.service.statistics.StatisticsService.jdbcTemplate; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.jdbc.core.JdbcTemplate] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 30 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.jdbc.core.JdbcTemplate cn.qtone.cjgl.service.statistics.StatisticsService.jdbcTemplate; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.jdbc.core.JdbcTemplate] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:269)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 32 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private org.springframework.jdbc.core.JdbcTemplate cn.qtone.cjgl.service.statistics.StatisticsService.jdbcTemplate; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.jdbc.core.JdbcTemplate] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 45 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [org.springframework.jdbc.core.JdbcTemplate] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoSuchBeanDefinitionException(DefaultListableBeanFactory.java:952)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:821)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 47 more
+2013-07-10 19:02:40,058 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 19:02:40,074 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 19:02:40,636 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 19:02:40,855 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 19:02:40,855 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 19:02:40,870 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 19:02:40,870 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 19:02:40,886 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 19:02:40,886 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 19:02:40,902 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 19:02:40,902 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 19:02:40,933 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 19:02:40,933 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 19:02:40,948 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 19:02:40,948 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 19:02:40,980 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 19:02:41,151 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 19:02:41,167 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-10 19:02:46,053 [main] ERROR [org.springframework.web.servlet.DispatcherServlet] - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.service.statistics.StatisticsService cn.qtone.cjgl.controller.statistics.StatisticsController.statisticsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl; nested exception is java.lang.IllegalArgumentException: Can not set cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl field cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl to $Proxy63
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:609)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:469)
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:631)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:588)
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:645)
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:508)
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:449)
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:133)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:241)
+	at org.mortbay.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:440)
+	at org.mortbay.jetty.servlet.ServletHolder.doStart(ServletHolder.java:263)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.servlet.ServletHandler.initialize(ServletHandler.java:736)
+	at org.mortbay.jetty.servlet.Context.startContext(Context.java:140)
+	at org.mortbay.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1282)
+	at org.mortbay.jetty.handler.ContextHandler.doStart(ContextHandler.java:518)
+	at org.mortbay.jetty.webapp.WebAppContext.doStart(WebAppContext.java:499)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at org.mortbay.jetty.handler.HandlerWrapper.doStart(HandlerWrapper.java:130)
+	at org.mortbay.jetty.Server.doStart(Server.java:224)
+	at org.mortbay.component.AbstractLifeCycle.start(AbstractLifeCycle.java:50)
+	at runjettyrun.Bootstrap.main(Bootstrap.java:97)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.service.statistics.StatisticsService cn.qtone.cjgl.controller.statistics.StatisticsController.statisticsService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl; nested exception is java.lang.IllegalArgumentException: Can not set cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl field cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl to $Proxy63
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 30 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'statisticsService': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl; nested exception is java.lang.IllegalArgumentException: Can not set cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl field cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl to $Proxy63
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:269)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:876)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:818)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:735)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:478)
+	... 32 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl; nested exception is java.lang.IllegalArgumentException: Can not set cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl field cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl to $Proxy63
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:506)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:284)
+	... 45 more
+Caused by: java.lang.IllegalArgumentException: Can not set cn.qtone.cjgl.dao.statistik.StatisticsDaoImpl field cn.qtone.cjgl.service.statistics.StatisticsService.statisticsDaoImpl to $Proxy63
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:146)
+	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:150)
+	at sun.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:63)
+	at java.lang.reflect.Field.set(Field.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:502)
+	... 47 more
+2013-07-10 19:06:58,610 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-10 19:06:58,625 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-10 19:06:59,188 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-10 19:06:59,375 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-10 19:06:59,375 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-10 19:06:59,391 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-10 19:06:59,406 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-10 19:06:59,406 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-10 19:06:59,422 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-10 19:06:59,438 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-10 19:06:59,438 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-10 19:06:59,453 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-10 19:06:59,453 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-10 19:06:59,469 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-10 19:06:59,469 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-10 19:06:59,500 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-10 19:06:59,687 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-10 19:06:59,687 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.

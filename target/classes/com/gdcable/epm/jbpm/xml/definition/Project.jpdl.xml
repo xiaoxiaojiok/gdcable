@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process name="Project" xmlns="http://jbpm.org/4.4/jpdl">
+   <task candidate-groups="reqiuire" g="144,24,90,96" name="提交项目申请表">
+      <transition g="-15,-24" name="通过" to="需求部门"/>
+   </task>
+   <task assignee="#{assignname}"  candidate-groups="reqiuire,admin" g="288,24,90,96" name="需求部门">
+      <transition g="-11,-24" name="通过" to="建设部门"/>
+   </task>
+   <task assignee="#{assignname}" candidate-groups="reqiuire,requiremanager,admin" g="432,24,90,96" name="建设部门">
+      <transition g="-11,-22" name="通过" to="分公司领导"/>
+   </task>
+   <task assignee="#{assignname}"  candidate-groups="reqiuire,brachmanager,admin" g="576,24,90,96" name="分公司领导">
+      <transition g="615,163;337,162:-69,-22" name="退回" to="需求部门"/>
+      <transition name="to exclusive1" to="exclusive1" g="-79,-22"/>
+   </task>
+   <task assignee="#{assignname}"  candidate-groups="reqiuire,builderleader,admin" g="852,24,90,96" name="省公司建设领导">
+      <transition g="-15,-26" name="通过" to="设计流程部"/>
+   </task>
+   <task assignee="#{assignname}"  candidate-groups="reqiuire,builderdesigner,admin" g="852,240,90,96" name="设计流程部">
+      <transition g="-50,-22" name="to end1" to="end1"/>
+   </task>
+   <start g="24,24,90,96" name="start1">
+      <transition to="提交项目申请表"/>
+   </start>
+   <end g="1020,240,90,96" name="end1"/>
+   <decision g="732,24,90,96" name="exclusive1">
+      <transition name="to 省公司建设领导"  to="省公司建设领导" g="-61,-22" >
+      		<condition expr="#{holiday &lt;= 10}"/>
+      </transition>
+      <transition name="to 设计流程部"  to="设计流程部" g="755,289:-81,-22">
+      		<condition expr="#{holiday &gt; 10}"/>
+      </transition>
+   </decision>
+   
+</process>

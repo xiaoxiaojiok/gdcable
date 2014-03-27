@@ -1,0 +1,112 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+	<!-- hibernate属性配置 -->
+	<!-- 使用 annotation -->
+	<!--
+		使用 annotation 自动注册bean,并检查@Controller, @Service, @Repository注解已被注入
+-->
+	<!-- 使用annotation 自动注册bean, 并保证@Required、@Autowired的属性被注入 -->
+	<context:component-scan base-package="com.gdcable.epm">
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+
+	<context:property-placeholder location="classpath:hibernate.properties" />
+
+	<!-- dbcp 数据源 -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="maxActive" value="${dbcp.maxActive}" />
+		<property name="maxIdle" value="${dbcp.maxIdle}" />
+		<property name="defaultAutoCommit" value="false" />
+		<property name="timeBetweenEvictionRunsMillis" value="3600000" />
+		<property name="minEvictableIdleTimeMillis" value="3600000" />
+	</bean>
+	<!-- SessionFactory -->
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan" value="com.gdcable.epm.entity" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.format_sql">${hibernate.format_sql}</prop>
+				<prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+			</props>
+		</property>
+		<property name="mappingLocations">
+			<list>
+				<value>classpath:jbpm.execution.hbm.xml</value>
+				<value>classpath:jbpm.history.hbm.xml</value>
+				<value>classpath:jbpm.identity.hbm.xml</value>
+				<value>classpath:jbpm.repository.hbm.xml</value>
+				<value>classpath:jbpm.task.hbm.xml</value>
+				<value>classpath:com/gdcable/epm/jbpm/xml/definition/JbDefinition.hbm.xml</value>
+				<value>classpath:com/gdcable/epm/jbpm/xml/instance/JbInstance.hbm.xml</value>
+				<value>classpath:com/gdcable/epm/jbpm/xml/opinion/JbOption.hbm.xml</value>
+			</list>
+		</property>
+
+	</bean>
+
+	<!-- 配置事务管理 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<!-- 配置注解实现管理事务（cglib：proxy-target-class="true"） -->
+	<tx:annotation-driven transaction-manager="transactionManager"
+		proxy-target-class="true" />
+
+
+	<!-- 配置事务的传播特性 -->
+	<tx:advice id="txAdvice" transaction-manager="transactionManager">
+		<tx:attributes>
+			<tx:method name="add*" propagation="REQUIRED" />
+			<tx:method name="edit*" propagation="REQUIRED" />
+			<tx:method name="remove*" propagation="REQUIRED" />
+			<tx:method name="save*" propagation="REQUIRED" />
+			<tx:method name="update*" propagation="REQUIRED" />
+			<tx:method name="delete*" propagation="REQUIRED" />
+			<tx:method name="batchUpdate" propagation="REQUIRED" />
+			<tx:method name="doGet*"  read-only="true" />
+			<tx:method name="*" read-only="true" />
+		</tx:attributes>
+	</tx:advice>
+	<!-- 配置事务的切入点 -->
+
+	<aop:config>
+		<aop:pointcut id="targetMethod"
+			expression="execution(* com.gdcable.epm..service.*.*(..))" />
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="targetMethod" />
+	</aop:config>
+
+	<bean id="springHelper" class="org.jbpm.pvm.internal.processengine.SpringHelper">
+		<property name="jbpmCfg" value="jbpm.cfg.xml"></property>
+	</bean>
+	<bean id="processEngine" factory-bean="springHelper"
+		factory-method="createProcessEngine">
+	</bean>
+	
+	<bean id="repositoryService" factory-bean="processEngine" factory-method="getRepositoryService" />
+	<bean id="executionService" factory-bean="processEngine" factory-method="getExecutionService" />
+	<bean id="identityService" factory-bean="processEngine" factory-method="getIdentityService" />
+	<bean id="managementService" factory-bean="processEngine" factory-method="getManagementService" />
+	<bean id="taskService" factory-bean="processEngine" factory-method="getTaskService" />
+	<bean id="historyService" factory-bean="processEngine" factory-method="getHistoryService" />
+</beans>

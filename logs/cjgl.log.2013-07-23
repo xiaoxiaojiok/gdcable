@@ -1,0 +1,46 @@
+2013-07-23 16:47:12,873 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-23 16:47:12,899 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-23 16:47:13,560 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-23 16:47:13,801 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-23 16:47:13,809 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-23 16:47:13,817 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-23 16:47:13,826 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-23 16:47:13,838 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-23 16:47:13,844 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-23 16:47:13,852 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-23 16:47:13,861 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-23 16:47:13,873 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-23 16:47:13,880 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-23 16:47:13,889 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-23 16:47:13,912 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-23 16:47:13,938 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-23 16:47:14,157 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-23 16:47:14,165 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-23 17:10:07,189 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+2013-07-23 17:10:07,199 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+2013-07-23 17:10:07,829 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role]; using defaults.
+2013-07-23 17:10:08,008 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectReletion]; using defaults.
+2013-07-23 17:10:08,014 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Permission]; using defaults.
+2013-07-23 17:10:08,024 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamClass]; using defaults.
+2013-07-23 17:10:08,035 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination]; using defaults.
+2013-07-23 17:10:08,047 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.GradeSubject]; using defaults.
+2013-07-23 17:10:08,055 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.ExamCategory]; using defaults.
+2013-07-23 17:10:08,063 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.SubjectScore]; using defaults.
+2013-07-23 17:10:08,072 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher]; using defaults.
+2013-07-23 17:10:08,080 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.UserRole]; using defaults.
+2013-07-23 17:10:08,096 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Parameter]; using defaults.
+2013-07-23 17:10:08,121 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Statistik]; using defaults.
+2013-07-23 17:10:08,133 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Menu]; using defaults.
+2013-07-23 17:10:08,166 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Teacher.subjectReletionList]; using defaults.
+2013-07-23 17:10:08,355 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Role.permissionList]; using defaults.
+2013-07-23 17:10:08,360 [main] WARN  [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - HHH020003: Could not find a specific ehcache configuration for cache named [cn.qtone.cjgl.entity.Examination.subjectReletionList]; using defaults.
+2013-07-23 17:41:49,390 [30583160@qtp-4171180-29] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-23 17:41:49,391 [30583160@qtp-4171180-29] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+
+2013-07-23 17:41:50,910 [30583160@qtp-4171180-29] WARN  [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - SQL Error: 936, SQLState: 42000
+2013-07-23 17:41:50,910 [30583160@qtp-4171180-29] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - ORA-00936: missing expression
+ORA-06512: at "CJGL_NEW.SORTSTATISTICSS", line 107
+ORA-06512: at line 1
+

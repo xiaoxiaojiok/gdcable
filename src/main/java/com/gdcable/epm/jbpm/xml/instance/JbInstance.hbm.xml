@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-mapping 
+	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.gdcable.epm.jbpm.po.instance.JbInstance" table="INT_JB_INSTANCE">
+		<id name="id" column="id" type="java.lang.Long">
+			<generator class="sequence">
+				<param name="sequence">T_NEWS</param>
+			</generator>
+		</id>
+		<property name="instance" column="INSTANCE_ID" />
+		<property name="service" column="SERVICE_ID"  type="java.lang.Long"/>
+		<property name="defintion" column="JB_DEFINITION_ID"  type="java.lang.Long"/>
+		<property name="poclass" column="POCLASS" />
+	</class>
+</hibernate-mapping>

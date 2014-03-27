@@ -1,0 +1,3 @@
+<bindings>
+<activity binding="com.gdcable.epm.jbpm.org.jbpm.jpdl.internal.activity.CustomerDecisionBinding" />
+</bindings>

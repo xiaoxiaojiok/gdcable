@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jbpm-configuration>
+
+  <process-engine-context>
+  
+    <deployer-manager>
+      <newjpdl-deployer />
+      <object class="org.jbpm.pvm.internal.repository.RulesDeployer" />
+    </deployer-manager>
+    
+  </process-engine-context>
+
+</jbpm-configuration>

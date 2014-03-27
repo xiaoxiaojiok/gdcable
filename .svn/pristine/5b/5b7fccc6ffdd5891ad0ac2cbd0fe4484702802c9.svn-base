@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE hibernate-mapping 
+	PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.gdcable.epm.jbpm.po.opinion.JbOption" table="int_jb_option">
+		<id name="id" column="id" type="java.lang.Long">
+			<generator class="sequence">
+				<param name="sequence">T_NEWS</param>
+			</generator>
+		</id>
+		<property name="taskid" column="TASKID"  type="java.lang.Long"/>
+		<property name="instance" column="INSTANCEID" />
+		<property name="serviceid" column="SERVICEID"  type="java.lang.Long"/>
+		<property name="suggestion" column="SUGGESTION" />
+		<property name="checktime" column="checktime" type="java.util.Date"></property>
+	</class>
+</hibernate-mapping>

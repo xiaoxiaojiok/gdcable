@@ -1,0 +1,34 @@
+.table
+{
+				border-color:rgb(180,205,230);
+				border-style:solid;
+				border-collapse:collapse;
+				padding-right:50px;
+				border-spacing:20;
+				width:100%;
+				font-size: 13px;
+				color:rgb(20,20,20);
+				text-align: right;
+				line-height: 30px;
+				font-size: 14px;
+}
+.table td
+{
+				padding-left: 15px;
+				padding-right: 15px;
+				text-align: center;
+}
+.table textarea
+{
+	width: 100%;height: 100%
+}
+
+.red
+{
+	color:red;
+}
+.blue
+{
+	color:rgb(12,28,250);
+}
+

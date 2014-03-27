@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/layouts/">
+	<excludes>
+		<pattern>/static/*</pattern>
+		<pattern>/login</pattern>
+	</excludes>
+	<decorator name="list" page="list.jsp">
+		<pattern>/role/**</pattern>
+		<pattern>/permission/*</pattern>
+	</decorator>
+	<decorator name="viewLayOut" page="view_layout.jsp">
+		<pattern>/leftmenu*</pattern>
+		
+	</decorator>
+</decorators>
+
